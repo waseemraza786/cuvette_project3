@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: rgb(155, 208, 76);
+}
+
+.choice{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.choice:hover{
+    cursor: pointer;
+    
+}
+.choice img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.choice img:hover{
+    border: 13px solid rgb(15, 17, 17);
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.mom{display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+#rock{
+    background-color: rgb(8, 74, 136);
+}
+#scissor{
+    background-color: rgb(129, 13, 238);
+}
+#paper{
+    background-color: goldenrod;
+}
+
+
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 1rem;
+    gap: 5rem;
+    border: 3px solid white;
+    width: 30%;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+#user-score, #comp-score{
+    font-size: 2rem;
+    
+}
+.msg-container{
+    
+    margin-top: 3rem;
+}
+
+#msg{
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 60px;
+    margin: 0px auto;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 60px;
+    border-radius: 6px;
+}
+
+
+.pop{
+    gap: 1rem;
+    font-size: 26px;
+    color: white;
+    
+}
+.rule{
+    
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 36px;
+}
+.rule button{
+    position:fixed;
+    font-size: 1rem;
+    padding: 12px 30px;
+    border-radius: 9px;
+    color: white;
+    background-color: rgb(155, 208, 76);
+    border: 2px solid white;
+    
+}
+.rule button:hover{
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+}
+.msgrule{
+    border: 10px solid white;
+    background-color: rgb(12, 82, 12);
+    border-radius: 20px;
+    width: 200px;
+    color: white;
+    position: absolute;
+    margin: 16px;   
+    visibility: hidden;
+    
+    
+}
+.msgrule h3{
+    padding: 3px;
+    text-align: center;
+    margin: 3px;
+}
+.msgrule ul{
+    list-style: square ;
+    padding: 13px;
+}
+.msgrule ul li{
+    margin: 5px;
+    text-align: left;
+}
+.boy{
+    position: absolute;
+    top: 30%;
+    right: 2px;
+    /* visibility: hidden; */
+    width: 300px;
+    height: 70px;
+
+}
+.crossx{
+    position: absolute;
+    width: 245px;
+    height: 70px;
+    z-index: 1;
+    display: flex;
+    justify-content: right;
+    visibility: hidden;
+}
+.cross svg:hover{
+    cursor: pointer;
+}
+.tri{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -33px;
+}
+.msg-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.msg-container .choice1{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+.choice1 img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.msg-container .choice2{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    
+    
+}
+.choice2 img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.triangle svg{
+    background-color: rgb(155, 208, 76);
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 515px;
+    z-index: -1;
+}
+
+
+
+
